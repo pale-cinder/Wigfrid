@@ -38,7 +38,12 @@ Dark: #404245
   --color-Dark: #260b07;
   --color-Grey-blue: #6c6f74;
   --color-Light: #888b8f;
-  --color-Dark: #404245; }
+  --color-Dark: #404245;
+  --color-Yellow: #FDB430;
+  --color-Yellow-L: #FFE8A0;
+  --color-Green-D: #177501;
+  --color-Red-2: #942011;
+  --color-Red-2L: #F76D50; }
 
 * {
   margin: 0;
