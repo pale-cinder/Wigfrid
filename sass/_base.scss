@@ -1,0 +1,47 @@
+/*
+COLORS
+
+Brown-red: ##A30001
+Light: #b53233
+Dark: #610000
+
+Red: #FE4C4A
+Light: #fe8180 
+Dark: #b13533
+
+Green: #809A41
+Light: #a6b87a
+Dark: #4c5c27
+
+Brown: #40130D
+Light: #66423d
+Dark: #260b07
+
+Grey-blue: #6B6E73
+Light: #888b8f
+Dark: #404245
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: :inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5% //1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 400;
+   line-height: 1.6;
+}
