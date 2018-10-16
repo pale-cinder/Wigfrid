@@ -29,22 +29,22 @@ Dark: #404245
     --color-Red-primary-light: #fe8180; 
     --color-Red-primary-dark: #b13533;
 
-    --color-Brown-Red: ##A30001
-    --color-Light: #b53233
-    --color-Dark: #610000
+    --color-Brown-Red: ##A30001;
+    --color-Light: #b53233;
+    --color-Dark: #610000;
 
 
-    --color-Green: #809A41
-    --color-Light: #a6b87a
-    --color-Dark: #4c5c27
+    --color-Green: #809A41;
+    --color-Light: #a6b87a;
+    --color-Dark: #4c5c27;
 
-    --color-Brown: #40130D
-    --color-Light: #66423d
-    --color-Dark: #260b07
+    --color-Brown: #40130D;
+    --color-Light: #66423d;
+    --color-Dark: #260b07;
 
-    --color-Grey-blue: #6c6f74
-    --color-Light: #888b8f
-    --color-Dark: #404245
+    --color-Grey-blue: #6c6f74;
+    --color-Light: #888b8f;
+    --color-Dark: #404245;
 
 
 }
@@ -69,6 +69,7 @@ body {
    font-family: 'Source Sans Pro', sans-serif;
    font-weight: 400;
    line-height: 1.6;
+   color: var(--color-Brown);
    background-image: linear-gradient(to right bottom, var(--color-Red-primary), var(--color-Red-primary-dark));
    background-size: cover;
    background-repeat: no-repeat;
