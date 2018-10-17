@@ -19,7 +19,8 @@
   --color-Yellow-L: #FFE8A0;
   --color-Green-D: #177501;
   --color-Red-2: #942011;
-  --color-Red-2L: #F76D50; }
+  --color-Red-2L: #F76D50;
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3); }
 
 * {
   margin: 0;
@@ -48,5 +49,21 @@ body {
   max-width: 120rem;
   margin: 8rem auto;
   background-color: var(--color-Milk);
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-dark);
   min-height: 50rem; }
+
+.header {
+  height: 7rem;
+  background-color: #f1e8e0;
+  border-bottom: var(--color-Milk); }
+
+.content {
+  display: flex; }
+
+.sidebar {
+  background-color: var(--color-Brown);
+  flex: 0 0 18%; }
+
+.droplets-view {
+  background-color: #f1e8e0;
+  flex: 1; }
