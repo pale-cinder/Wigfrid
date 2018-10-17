@@ -1,50 +1,27 @@
-/*
-COLORS
-
-Brown-red: ##A30001
-Light: #b53233
-Dark: #610000
-
-Red: #FE4C4A
-Light: #fe8180 
-Dark: #b13533
-
-Green: #809A41
-Light: #a6b87a
-Dark: #4c5c27
-
-Brown: #40130D
-Light: #66423d
-Dark: #260b07
-
-Grey-blue: #6c6f74
-Light: #888b8f
-Dark: #404245
-
-
-*/
 
 :root {
-    --color-Red-primary: #fe4c4a;            
-    --color-Red-primary-light: #fe8180; 
+    --color-Red-primary: #f49487;               //#fe4c4a;            
+    --color-Red-primary-light: #fe4c4a; 
     --color-Red-primary-dark: #b13533;
 
-    --color-Brown-Red: ##A30001;                
+    --color-Brown-Red: #bb2e2b;                 //##A30001;                
     --color-Light: #b53233;
     --color-Dark: #610000;
 
 
-    --color-Green: #809A41;                    
+    --color-Green: #4d7606;                     //#809A41;                    
     --color-Light: #a6b87a;
     --color-Dark: #4c5c27;
 
-    --color-Brown: #40130D;                     
+    --color-Brown: #43081a;                     //#40130D;                     
     --color-Light: #66423d;
     --color-Dark: #260b07;
 
     --color-Grey-blue: #6c6f74;                 
     --color-Light: #888b8f;
     --color-Dark: #404245;
+
+    --color-Milk: #f1ece0;
 
 
     --color-Yellow: #FDB430;
@@ -80,7 +57,7 @@ body {
    font-weight: 400;
    line-height: 1.6;
    color: var(--color-Brown);
-   background-image: linear-gradient(to right bottom, var(--color-Red-primary), var(--color-Red-primary-dark));
+   background-image: linear-gradient(to right bottom, var(--color-Red-primary), var(--color-Red-primary-light));
    background-size: cover;
    background-repeat: no-repeat;
 
