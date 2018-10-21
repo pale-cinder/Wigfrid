@@ -66,10 +66,14 @@ body {
 
 .sidebar {
   background-color: var(--color-Brown);
-  flex: 0 0 18%; }
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .droplets-view {
   background-color: #f1e8e0;
+  height: 80rem;
   flex: 1; }
 
 .logo {
@@ -151,8 +155,8 @@ body {
     margin-right: 1rem; }
 
 .side-nav__icon {
-  width: 1.75rem;
-  height: 1.75rem; }
+  width: 5.75rem;
+  height: 5.75rem; }
 
 .legal {
   font-size: 1.2rem;
