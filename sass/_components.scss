@@ -81,8 +81,27 @@
 
 .user-nav {
     background-color: orange;
+    align-self: stretch;
+
+    display: flex;
+    align-items: center;
+
+    & > * { 
+        //selecting children
+        padding: 0 2r4em;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    & > *hover {
+        background-color: var(--color-Milk);
+    }
 
     &__icon-box {
+        
 
     }
 

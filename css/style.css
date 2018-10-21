@@ -115,7 +115,18 @@ body {
     fill: var(--color-Brown); }
 
 .user-nav {
-  background-color: orange; }
+  background-color: orange;
+  align-self: stretch;
+  display: flex;
+  align-items: center; }
+  .user-nav > * {
+    padding: 0 2r4em;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  .user-nav > *hover {
+    background-color: var(--color-Milk); }
   .user-nav__icon {
     height: 2.25rem;
     widows: 2.25rem; }
