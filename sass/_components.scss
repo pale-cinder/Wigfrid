@@ -145,17 +145,31 @@
 
 //Side Navigation
 .side-nav {
+
+    font-size: 1.6rem;
+    list-style: none;
+    margin-top: 4rem;
+
+
     &__item {
+        
 
     }
 
-    &__link {
-
+    &__link:link,
+    &__link:visited {
+        color: var(--color-Milk);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        padding: 1rem 4rem;
     }
 
     &__icon {
         width: 2.75rem;
         height: 2.75rem;
+        margin-right: 2rem;
+        fill: currentColor; //doesn't appear on the page
 
     }
 }
