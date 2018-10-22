@@ -178,6 +178,7 @@
 
     &__item:hover::before {
         transform: scaleY(1);
+        width: 100%;
     }
 
 
