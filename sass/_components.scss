@@ -222,3 +222,15 @@
     padding: 2.5rem;
 
 }
+
+//Gallery options
+
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+
+    }
+}

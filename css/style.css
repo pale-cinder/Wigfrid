@@ -198,3 +198,9 @@ body {
   color: var(--color-Milk);
   text-align: center;
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
