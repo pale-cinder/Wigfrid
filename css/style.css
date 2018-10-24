@@ -208,6 +208,9 @@ body {
 
 .overview {
   display: flex; }
+  .overview__stars {
+    margin-right: auto;
+    background-color: red; }
   .overview__icon-star, .overview__icon-location {
     width: 2rem;
     height: 2rem;

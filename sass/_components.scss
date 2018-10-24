@@ -240,12 +240,17 @@
 //Droplet Overview 
 .overview {
     display: flex;
+    //justify-content: space-between;
+
 
     &__heading {
 
     }
 
     &__stars {
+        //flex: 1;
+        margin-right: auto;
+        background-color: red;
         
     }
 
@@ -257,6 +262,7 @@
     }
 
     &__location {
+        
         
     }
 
