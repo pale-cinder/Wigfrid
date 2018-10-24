@@ -205,3 +205,10 @@ body {
     width: 50%;
     display: block;
     margin-left: 7.5rem; }
+
+.overview {
+  display: flex; }
+  .overview__icon-star, .overview__icon-location {
+    width: 2rem;
+    height: 2rem;
+    fill: --color-Red-primary; }
