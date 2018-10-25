@@ -1,14 +1,15 @@
 :root {
-  --color-Red-primary: #6c6f74;
+  --color-Red-primary: #2F2E83;
   --color-Red-primary-light: #fe4c4a;
   --color-Red-primary-dark: #b13533;
-  --color-Brown-Red: #bb2e2b;
+  --color-Brown-Red: #252266;
   --color-Light: #b53233;
   --color-Dark: #610000;
-  --color-Green: #4d7606;
+  --color-Green: #FF375C;
   --color-Light: #a6b87a;
   --color-Dark: #4c5c27;
-  --color-Brown: #43081a;
+  --color-Red-primary: #2F2E83;
+  --color-Brown: #252266;
   --color-Light: #66423d;
   --color-Dark: #260b07;
   --color-Grey-blue: #6c6f74;
@@ -78,7 +79,8 @@ body {
 
 .logo {
   height: 6.25rem;
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  fill: var(--color-Brown); }
 
 .search {
   flex: 0 0 40%;
