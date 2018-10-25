@@ -2,7 +2,7 @@
   --color-Red-primary: #2F2E83;
   --color-Red-primary-light: #fe4c4a;
   --color-Red-primary-dark: #b13533;
-  --color-Brown-Red: #252266;
+  --color-Brown-Red: #FF375C;
   --color-Light: #b53233;
   --color-Dark: #610000;
   --color-Green: #FF375C;
@@ -252,7 +252,7 @@ body {
 
 .btn-inline {
   border: none;
-  color: var(--color-Green);
+  color: var(--color-Red-primary);
   font-size: inherit;
   border-bottom: 1px solid currentColor;
   padding: 2px;
