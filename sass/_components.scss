@@ -367,9 +367,6 @@
 
 .paragraph:not(:last-of-type) {
     margin-bottom: 2rem;
-    color: #f1e8e0;
-
-
 }
 
 
@@ -380,6 +377,8 @@
     padding: 3rem 0;
     border-top: var(--line);
     border-bottom: var(--line);
+
+    
 
     display: flex;
     flex-wrap: wrap;
@@ -405,8 +404,8 @@
         -webkit-mask-image: url(../img/arrow-right2.svg);
         -webkit-mask-size: cover;
 
-
-
+        mask-image: url(../img/arrow-right2.svg);
+        mask-size: cover;
     }
 
 }
