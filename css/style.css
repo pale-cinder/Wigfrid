@@ -21,7 +21,8 @@
   --color-Green-D: #177501;
   --color-Red-2: #942011;
   --color-Red-2L: #F76D50;
-  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3); }
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+  --shadow-light: 0 2rem 5rem rgba(0,0,0,.1); }
 
 * {
   margin: 0;
@@ -75,6 +76,23 @@ body {
 .droplets-view {
   background-color: var(--color-Milk);
   height: 80rem;
+  flex: 1; }
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: #f1e8e0;
+  border-bottom: 1px solid #f1e8e0; }
+
+.description {
+  background-color: var(--color-Red-primary);
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
+  background-color: green;
   flex: 1; }
 
 .logo {
