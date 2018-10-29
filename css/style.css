@@ -223,9 +223,10 @@ body {
 .gallery {
   display: flex; }
   .gallery__photo {
-    width: 30%;
+    width: 20%;
     display: block;
-    margin-left: 7.5rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
     margin-bottom: 2rem; }
 
 .overview {
