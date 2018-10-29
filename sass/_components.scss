@@ -235,6 +235,15 @@
         margin-left: 15rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
+
+        //-webkit-linear-gradient(left, #000, #ccc);
+
+        //test color gradients for the bar
+
+    // mask-image: url(img/database.png), linear-gradient(var(--color-Brown), transparent);
+    // mask-position: center, top left;
+    // mask-repeat: no-repeat, no-repeat;
+    // -webkit-backdrop-filter: brightness(70%);
         
     }
 }
