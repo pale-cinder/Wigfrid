@@ -222,7 +222,9 @@ body {
   padding: 2.5rem; }
 
 .gallery {
-  display: flex; }
+  display: flex;
+  -webkit-mask-image: url(../img/gradient.jpg) top left/cover;
+  -webkit-mask-size: 30rem; }
   .gallery__photo {
     width: 20%;
     display: block;
