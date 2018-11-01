@@ -76,10 +76,6 @@
 
 
 
-
-
-
-
 ////////////////////////////////////////
 //User Navigation
 
@@ -228,6 +224,7 @@
 
 .gallery {
     display: flex;
+    background-color: var(--color-Milk);
 
     -webkit-mask-image: url(../img/gradient.jpg) top left/cover;
     -webkit-mask-size: 30rem;
@@ -238,15 +235,6 @@
         margin-left: 13.75rem;
         margin-top: 2rem;
         margin-bottom: 2rem;      
-
-        //-webkit-linear-gradient(left, #000, #ccc);
-
-        //test color gradients for the bar
-
-    // mask-image: url(img/database.png), linear-gradient(var(--color-Brown), transparent);
-    // mask-position: center, top left;
-    // mask-repeat: no-repeat, no-repeat;
-    // -webkit-backdrop-filter: brightness(70%);
         
     }
 }
@@ -275,10 +263,16 @@
  
     }
 
-    &__icon-star,
+    &__icon-star{
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: (--color-Red-primary);
+
+    }
+
     &__icon-location {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
         fill: (--color-Red-primary);
 
     }
@@ -464,6 +458,7 @@
     padding: 3rem;
     margin-bottom: 3rem;
     position: relative;
+    border-radius: 3px;
 
     &__text {
         margin-bottom: 2rem;

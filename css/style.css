@@ -86,19 +86,20 @@ body {
 
 .description {
   font-size: 1.4rem;
-  background-color: var(--color-Red-primary);
+  background-color: var(--color-Milk);
   box-shadow: var(--shadow-light);
   border-radius: 3px;
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
-  color: #f1e8e0; }
+  color: var(--color-Brown); }
 
 .user-reviews {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  border-radius: 3px; }
 
 .logo {
   height: 6.25rem;
@@ -226,6 +227,7 @@ body {
 
 .gallery {
   display: flex;
+  background-color: var(--color-Milk);
   -webkit-mask-image: url(../img/gradient.jpg) top left/cover;
   -webkit-mask-size: 30rem; }
   .gallery__photo {
@@ -248,9 +250,13 @@ body {
   .overview__stars {
     margin-right: auto;
     display: flex; }
-  .overview__icon-star, .overview__icon-location {
-    width: 2rem;
-    height: 2rem;
+  .overview__icon-star {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: --color-Red-primary; }
+  .overview__icon-location {
+    width: 3rem;
+    height: 3rem;
     fill: --color-Red-primary; }
   .overview__location {
     font-size: 1.4rem;
@@ -355,7 +361,8 @@ body {
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3rem;
-  position: relative; }
+  position: relative;
+  border-radius: 3px; }
   .review__text {
     margin-bottom: 2rem;
     z-index: 10;
