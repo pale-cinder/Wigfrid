@@ -346,9 +346,13 @@ body {
   background-color: #f1e8e0;
   box-shadow: var(--shadow-light);
   padding: 3rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  position: relative; }
   .review__text {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    z-index: 10;
+    position: relative;
+    overflow: hidden; }
   .review__user {
     display: flex;
     align-items: center; }
@@ -372,4 +376,12 @@ body {
     font-size: 2rem;
     font-weight: 300; }
   .review::before {
-    content: "\201C"; }
+    content: "\201C";
+    position: absolute;
+    top: -1.75rem;
+    left: -.25rem;
+    line-height: 1;
+    font-size: 12rem;
+    color: var(--color-Green);
+    opacity: .25;
+    z-index: 1; }
