@@ -433,7 +433,12 @@ body {
     left: 0;
     top: -100%;
     transition: all .2s; }
+  .btn:hover {
+    background-image: linear-gradient(to left, var(--color-Brown), var(--color-Green)); }
   .btn:hover .btn__visible {
     transform: translateY(100%); }
   .btn:hover .btn__invisible {
     top: 0; }
+  .btn:focus {
+    outline: none;
+    animation: pulsate 1s infinite; }
