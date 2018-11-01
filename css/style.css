@@ -95,7 +95,10 @@ body {
   color: #f1e8e0; }
 
 .user-reviews {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .logo {
   height: 6.25rem;
@@ -389,5 +392,4 @@ body {
     font-size: 12rem;
     color: var(--color-Green);
     opacity: .25;
-    z-index: 1;
-    box-shadow: var(--shadow-light); }
+    z-index: 1; }
