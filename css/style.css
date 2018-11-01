@@ -432,5 +432,5 @@ body {
     left: 0;
     top: -100%;
     transition: all .2s; }
-  .btn:hover__invisible {
+  .btn:hover .btn__invisible {
     top: 0; }

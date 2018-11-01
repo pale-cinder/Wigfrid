@@ -568,16 +568,14 @@
         
     }
 
-    &:hover {
+    &:hover &__visible {
 
-        &__visible {
+    }
 
-        }
-
-        &__invisible {
+        
+    &:hover &__invisible {
             top: 0;
 
         }
-    }
 }
 
