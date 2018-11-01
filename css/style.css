@@ -416,21 +416,24 @@ body {
   text-transform: uppercase;
   border-radius: 100px;
   border: none;
-  background-image: linear-gradient(to right, var(--color-Green), var(--color-Brown));
+  background-image: linear-gradient(to right, var(--color-Brown), var(--color-Green));
   color: var(--color-Milk);
   position: relative;
   overflow: hidden; }
-  .btn__visible {
+  .btn > * {
     display: inline-block;
-    padding: 2rem 7.5rem; }
-  .btn__invisible {
-    display: inline-block;
-    position: absolute;
-    padding: 2rem 0;
     height: 100%;
     width: 100%;
+    transition: all .2s; }
+  .btn__visible {
+    padding: 2rem 7.5rem; }
+  .btn__invisible {
+    position: absolute;
+    padding: 2rem 0;
     left: 0;
     top: -100%;
     transition: all .2s; }
+  .btn:hover .btn__visible {
+    transform: translateY(100%); }
   .btn:hover .btn__invisible {
     top: 0; }
