@@ -405,7 +405,32 @@ body {
   padding: 3.5rem 0;
   text-align: center; }
   .cta__run-now {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  background-image: linear-gradient(to right, var(--color-Green), var(--color-Brown));
+  color: var(--color-Milk);
+  position: relative;
+  overflow: hidden; }
+  .btn__visible {
+    display: inline-block;
+    padding: 2rem 7.5rem; }
+  .btn__invisible {
+    display: inline-block;
+    position: absolute;
+    padding: 2rem 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: -100%;
+    transition: all .2s; }
+  .btn:hover__invisible {
+    top: 0; }
