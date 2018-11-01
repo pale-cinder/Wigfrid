@@ -335,9 +335,18 @@
     cursor: pointer;
     transition: all .2s;
 
+    & span {
+        margin-left: 3px;
+    }
+
 
     &:hover {
         color: var(--color-Brown-Red);
+
+        span {
+            margin-left: 8px;
+            transition: margin-left .2s;
+        }
 
     }
 
@@ -516,6 +525,7 @@
         opacity: .25;
         //font-family: sans-serif;
         z-index: 1;
+        box-shadow: var(--shadow-light);
 
     }
 }
