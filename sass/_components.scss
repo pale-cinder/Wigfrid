@@ -549,6 +549,7 @@
     color: var(--color-Milk);
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 
     & > * {
         display: inline-block;
