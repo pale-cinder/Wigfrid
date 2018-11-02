@@ -94,7 +94,7 @@ body {
 
 .description {
   font-size: 1.4rem;
-  background-color: var(--color-Milk);
+  background-color: white;
   box-shadow: var(--shadow-light);
   border-radius: 3px;
   padding: 3rem;
@@ -274,7 +274,7 @@ body {
     margin-right: .5rem; }
   .overview__rating {
     background-color: var(--color-Green);
-    color: #f1e8e0;
+    color: white;
     margin-left: 3rem;
     padding: 0 2.25rem;
     align-self: stretch;
@@ -362,10 +362,10 @@ body {
     border-radius: 50%;
     border: 1.75px solid #f1e8e0; }
     .recommend__photo:not(:last-child) {
-      margin-right: -1.5rem; }
+      margin-right: -2rem; }
 
 .review {
-  background-color: #f1e8e0;
+  background-color: white;
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3rem;
@@ -425,7 +425,7 @@ body {
   border-radius: 100px;
   border: none;
   background-image: linear-gradient(to right, var(--color-Brown), var(--color-Green));
-  color: var(--color-Milk);
+  color: white;
   position: relative;
   overflow: hidden;
   cursor: pointer; }
