@@ -398,6 +398,10 @@ body {
   margin-bottom: 3rem;
   position: relative;
   border-radius: 3px; }
+  @media only screen and (max-width: 56.25em) {
+    .review {
+      padding: 2rem;
+      margin-bottom: 2.5rem; } }
   .review__text {
     margin-bottom: 2rem;
     z-index: 10;
@@ -439,6 +443,9 @@ body {
 .cta {
   padding: 0 0 3.5rem 0;
   text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .cta {
+      padding: 0 0 2.5rem 0; } }
   .cta__run-now {
     font-size: 1.75rem;
     font-weight: 300;

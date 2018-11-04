@@ -251,6 +251,8 @@
     -webkit-mask-image: url(../img/gradient.jpg) top left/cover;
     -webkit-mask-size: 30rem;
 
+    
+
     &__photo {
         width: 35%;
         display: block;
@@ -455,7 +457,7 @@
     }
 
     &__picture {
-
+       // display: flex;
     }
 
     &__photo {
@@ -481,6 +483,11 @@
     margin-bottom: 3rem;
     position: relative;
     border-radius: 3px;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2rem;
+        margin-bottom: 2.5rem;
+    }
 
     &__text {
         margin-bottom: 2rem;
@@ -550,6 +557,10 @@
 .cta {
     padding: 0 0 3.5rem 0;
     text-align: center;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 0 0 2.5rem 0;
+    }
 
     &__run-now {
         font-size: 1.75rem;
