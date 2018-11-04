@@ -94,6 +94,9 @@ body {
   padding: 4.5rem;
   background-color: #f1e8e0;
   border-bottom: 1px solid #f1e8e0; }
+  @media only screen and (max-width: 56.25em) {
+    .detail {
+      padding: 3rem; } }
 
 .description {
   font-size: 1.4rem;
@@ -104,6 +107,10 @@ body {
   flex: 0 0 60%;
   margin-right: 4.5rem;
   color: var(--color-Brown); }
+  @media only screen and (max-width: 56.25em) {
+    .description {
+      padding: 2rem;
+      margin-right: 3rem; } }
 
 .user-reviews {
   flex: 1;
@@ -203,6 +210,12 @@ body {
     position: relative; }
     .side-nav__item:not(last-child) {
       margin-bottom: .5rem; }
+      @media only screen and (max-width: 56.25em) {
+        .side-nav__item:not(last-child) {
+          margin: 0; } }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__item {
+        flex: 1; } }
   .side-nav__item::before {
     content: "";
     position: absolute;
@@ -228,6 +241,10 @@ body {
     z-index: 10;
     display: flex;
     align-items: center; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem; } }
   .side-nav__icon {
     width: 2.75rem;
     height: 2.75rem;
