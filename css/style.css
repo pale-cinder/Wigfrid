@@ -125,6 +125,10 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 3px; }
+  @media only screen and (max-width: 56.25em) {
+    .user-reviews {
+      flex-direction: row;
+      align-items: center; } }
 
 .logo {
   height: 6.25rem;
@@ -306,6 +310,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .overview__heading {
+        font-size: 1.8rem;
+        padding: 1.25rem 2rem; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -333,13 +341,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 56.25em) {
+      .overview__rating {
+        padding: 0 1.5rem; } }
   .overview__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
     margin-bottom: -3px; }
+    @media only screen and (max-width: 56.25em) {
+      .overview__rating-average {
+        font-size: 1.8rem; } }
   .overview__rating-count {
     font-size: 1rem;
     text-transform: uppercase; }
+    @media only screen and (max-width: 56.25em) {
+      .overview__rating-count {
+        font-size: .5rem; } }
 
 .btn-inline {
   border: none;
@@ -351,6 +368,9 @@ body {
   background-color: transparent;
   cursor: pointer;
   transition: all .2s; }
+  @media only screen and (max-width: 37.5em) {
+    .btn-inline {
+      flex-grow: initial; } }
   .btn-inline span {
     margin-left: 3px; }
   .btn-inline:hover {
@@ -422,6 +442,13 @@ body {
   margin-bottom: 3rem;
   position: relative;
   border-radius: 3px; }
+  @media only screen and (max-width: 37.5em) {
+    .review {
+      margin-right: 1rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; } }
   @media only screen and (max-width: 56.25em) {
     .review {
       padding: 2rem;
