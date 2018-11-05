@@ -72,7 +72,9 @@ body {
   align-items: center; }
   @media only screen and (max-width: 31.25em) {
     .header {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      align-content: space-around;
+      height: 12rem; } }
 
 .content {
   display: flex; }
@@ -134,7 +136,8 @@ body {
       align-items: center; } }
   @media only screen and (max-width: 31.25em) {
     .user-reviews {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      align-content: center; } }
 
 .logo {
   height: 6.25rem;
@@ -152,7 +155,7 @@ body {
   @media only screen and (max-width: 31.25em) {
     .search {
       order: 1;
-      flex: 0 0 100%; } }
+      flex: 0 0 97.5%; } }
   .search__input {
     font-family: inherit;
     font-size: inherit;

@@ -24,7 +24,7 @@
 
     @media only screen and (max-width: $bp-smallest) {
         order: 1;
-        flex: 0 0 100%;
+        flex: 0 0 97.5%;
     }
 
     &__input {
@@ -407,7 +407,7 @@
         order: 1;
         flex: 0 0 100%;
     }
-    
+
     & span {
         margin-left: 3px;
     }
