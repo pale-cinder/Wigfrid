@@ -6,6 +6,10 @@
     margin-left: 8.25rem;
     fill: var(--color-Brown);
 
+    @media only screen and (max-width: $bp-medium) {
+        margin-left: 1rem;
+    }
+
 }
 
 ////////////////////////////////////////
