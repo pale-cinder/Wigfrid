@@ -70,6 +70,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media only screen and (max-width: 31.25em) {
+    .header {
+      flex-wrap: wrap; } }
 
 .content {
   display: flex; }
@@ -129,6 +132,9 @@ body {
     .user-reviews {
       flex-direction: row;
       align-items: center; } }
+  @media only screen and (max-width: 31.25em) {
+    .user-reviews {
+      flex-wrap: wrap; } }
 
 .logo {
   height: 6.25rem;
@@ -143,6 +149,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media only screen and (max-width: 31.25em) {
+    .search {
+      order: 1;
+      flex: 0 0 100%; } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -371,6 +381,10 @@ body {
   @media only screen and (max-width: 37.5em) {
     .btn-inline {
       flex-grow: initial; } }
+  @media only screen and (max-width: 31.25em) {
+    .btn-inline {
+      order: 1;
+      flex: 0 0 100%; } }
   .btn-inline span {
     margin-left: 3px; }
   .btn-inline:hover {

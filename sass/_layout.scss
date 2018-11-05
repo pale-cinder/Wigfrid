@@ -23,6 +23,10 @@
     justify-content: space-between;
     align-items: center;
 
+    @media only screen and (max-width: $bp-smallest) {
+        flex-wrap: wrap;
+    }
+
                 
         
     // @media only screen and (max-width: $bp-small) {
@@ -107,6 +111,10 @@
     @media only screen and (max-width: $bp-medium) {
         flex-direction: row;
         align-items: center;   
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        flex-wrap: wrap;
     }
 
 }

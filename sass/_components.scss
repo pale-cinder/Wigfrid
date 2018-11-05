@@ -22,6 +22,11 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: $bp-smallest) {
+        order: 1;
+        flex: 0 0 100%;
+    }
+
     &__input {
         font-family: inherit;
         font-size: inherit;
@@ -397,6 +402,12 @@
         flex-grow: initial;
     }
 
+
+    @media only screen and (max-width: $bp-smallest) {
+        order: 1;
+        flex: 0 0 100%;
+    }
+    
     & span {
         margin-left: 3px;
     }
