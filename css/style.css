@@ -233,6 +233,10 @@ body {
     .side-nav {
       display: flex;
       margin: 0; } }
+  @media only screen and (max-width: 31.25em) {
+    .side-nav {
+      display: flex;
+      margin: 0; } }
   .side-nav__item {
     position: relative; }
     .side-nav__item:not(last-child) {
@@ -276,6 +280,10 @@ body {
       .side-nav__link:link, .side-nav__link:visited {
         flex-direction: column;
         padding: 1.5rem .5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        flex-direction: column;
+        padding: 1rem 1.5rem; } }
   .side-nav__icon {
     width: 2.75rem;
     height: 2.75rem;
@@ -312,6 +320,10 @@ body {
       .gallery__photo {
         flex-direction: row;
         margin-left: 10rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .gallery__photo {
+        flex-direction: row;
+        margin-left: 7.5rem; } }
 
 .overview {
   display: flex;

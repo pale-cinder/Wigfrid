@@ -162,6 +162,13 @@
         margin: 0;
     }
 
+    @media only screen and (max-width: $bp-smallest) {
+        display: flex;
+        margin: 0;
+        //justify-content: center;
+        
+    }
+
 
     &__item {
         position: relative;
@@ -229,6 +236,13 @@
             padding: 1.5rem .5rem;
         }
 
+        @media only screen and (max-width: $bp-smallest) {
+            //display: flex;
+            flex-direction: column;
+            padding: 1rem 1.5rem;
+            //align-items: center;
+        }
+
     }
 
 
@@ -284,6 +298,11 @@
         @media only screen and (max-width: $bp-small) {
             flex-direction: row;
             margin-left: 10rem;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            flex-direction: row;
+            margin-left: 7.5rem;
         }
         
     }
