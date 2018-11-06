@@ -470,6 +470,12 @@ body {
     .review {
       padding: 2rem;
       margin-bottom: 2.5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .review {
+      display: flex;
+      align-items: center;
+      flex: 2 0 0;
+      display: inline-block; } }
   @media only screen and (max-width: 31.25em) {
     .review {
       display: flex;

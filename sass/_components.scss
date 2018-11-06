@@ -552,6 +552,13 @@
         margin-bottom: 2.5rem;
     }
 
+    @media only screen and (max-width: $bp-small) {
+        display: flex;
+        //margin-left: auto;
+        align-items: center;
+        flex: 2 0 0;
+        display: inline-block;
+    }
 
     @media only screen and (max-width: $bp-smallest) {
         display: flex;
