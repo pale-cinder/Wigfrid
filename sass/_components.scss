@@ -501,16 +501,20 @@
         margin-right: .7rem;
 
         //older browsers
-        // background-image: url(../img/point-right.svg);
+        background-image: url(../img/arrow-right2.svg);
         // background-size: cover;
 
         //newer browsers - masks
+
+        @supports (-webkit-mask-image: url()) or (mask-image: url()) {
         background-color: var(--color-Green);
         -webkit-mask-image: url(../img/arrow-right2.svg);
         -webkit-mask-size: cover;
 
         mask-image: url(../img/arrow-right2.svg);
         mask-size: cover;
+        background-image: none;
+        }
     }
 
 }
